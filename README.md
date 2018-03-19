@@ -43,7 +43,7 @@ activate anaconda environment
 install the library 
 
 ```bash 
-deeplearning> conda install -c conda-forge scipy tensorflow keras pillow matplotlib
+deeplearning> conda install -c conda-forge scipy tensorflow keras pillow matplotlib jupyter
 ```
 
 Download dataset
