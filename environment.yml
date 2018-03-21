@@ -7,7 +7,6 @@ dependencies:
 - graphviz=2.38.0
 - jupyter=1.0.0
 - jupyterlab=0.3
-- tensorflow=1.5.0
 - matplotlib=2.2.0
 - numpy=1.14.2
 - pillow=5.0.0
