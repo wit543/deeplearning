@@ -1,7 +1,9 @@
 version: 2
 jobs:
   build:
+    machine: true
     steps:
+      - checkout
       # build and push Docker image
       - run: |
           docker build -t wit543/deeplearning:circleci .
