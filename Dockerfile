@@ -9,5 +9,4 @@ RUN conda env create environment.yml
 
 COPY . .
 
-
-CMD [ "source","activate","deeplearning","&&","jupyter", "lab" ]
+CMD [ "source activate deeplearning && jupyter lab" ]
