@@ -9,3 +9,4 @@ jobs:
           docker build -t wit543/deeplearning:circleci .
           docker login -u $DOCKER_USER -p $DOCKER_PASS
           docker push wit543/deeplearning:circleci
+
