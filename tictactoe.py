@@ -64,6 +64,8 @@ class TicTacToeGame():
         return False
 
     def get_move(self, idx):
+        # print(self.state[:idx-1])
+        # print(self.state[idx:])
         return self.state[:idx-1] + self.player + self.state[idx:]
 
 
