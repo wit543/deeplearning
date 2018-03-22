@@ -72,5 +72,5 @@ import dockefile
 ## run image
 
 ```bash
-> docker run --rm -p 54355:8888 wit543/deeplearning:circleci  /bin/bash -c "source activate deeplearning && jupyter lab  --ip='0.0.0.0' --port=8888 --no-browser --allow-root"
+> docker run --rm -p 8888:8888 wit543/deeplearning:circleci  /bin/bash -c "source activate deeplearning && jupyter lab  --ip='0.0.0.0' --port=8888 --no-browser --allow-root"
 ```
