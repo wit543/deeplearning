@@ -54,3 +54,23 @@ deeplearning> python
 >>> mnist.load_data()
 >>> quit()
 ```
+
+## download image
+
+Download image file
+```
+download file from http://158.108.138.156:5000/
+```
+
+import dockefile
+
+```
+> docker load < busybox.tar.gz
+```
+
+
+## run image
+
+```bash
+> docker run --rm -p 54355:8888 wit543/deeplearning:circleci  /bin/bash -c "source activate deeplearning && jupyter lab  --ip='0.0.0.0' --port=8888 --no-browser --allow-root"
+```
