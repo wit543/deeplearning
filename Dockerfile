@@ -1,6 +1,7 @@
 FROM continuumio/anaconda3:latest
 WORKDIR /workspace
 
+RUN conda update -n base conda
 
 COPY environment.yml ./
 
